@@ -17,7 +17,7 @@ export class CanvasText extends Component {
           <CustomButton
             width="200px"
             height="50px"
-            link="#"
+            link="#home"
             text="View My Work"
           />
         </div>

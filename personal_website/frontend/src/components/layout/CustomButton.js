@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import posed from "react-pose";
+import { Link } from "react-scroll";
 
 const Rect = posed.button({
   hoverable: true,
@@ -29,11 +30,19 @@ export class CustomButton extends Component {
 
   render() {
     return (
-      <a href={this.props.link}>
+      // <a href={this.props.link}>
+      <Link
+        activeClass="active"
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-50}
+        duration={500}
+      >
         <Rect className="CustomButton" style={this.buttonStyle}>
           {this.props.text}
         </Rect>
-      </a>
+      </Link>
     );
   }
 }
