@@ -6,7 +6,7 @@ import { Animation } from "./Animation";
 export class Canvas extends Component {
   render() {
     return (
-      <div className="Canvas">
+      <div className="Canvas home">
         <Animation />
         <CanvasText />
       </div>

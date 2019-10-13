@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Muli", sans-serif;
 }
 .CustomButton {
   background: #252934;
@@ -56,14 +57,22 @@ a:link {
 }
 
 /* CSS @media Rules */
-.navbar-link {
+.HeaderLink {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.HeaderLinkText {
+  color: #eeeeee;
 }
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
+  color: #00ffff;
+}
+
+.HeaderLink .active {
   color: #00ffff;
 }

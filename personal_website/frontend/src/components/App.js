@@ -11,6 +11,7 @@ class App extends Component {
       <Fragment>
         <Canvas />
         <Header />
+        <br></br>
         <Lorem name="about" />
         <Lorem name="portfolio" />
         <Lorem name="contact" />
