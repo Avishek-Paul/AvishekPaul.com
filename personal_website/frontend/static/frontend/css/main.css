@@ -13,19 +13,8 @@
   position: relative;
 }
 
-.CustomButtonText {
-  /* top: 50%;
-  transform: translateY(50%); */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 .CustomButton:hover {
   background: #28837e;
-  /* border-style: none; */
 }
 
 a:link {
@@ -41,6 +30,11 @@ a:link {
   height: 100vh;
   background: #252934;
   position: relative;
+}
+
+.animation {
+  width: 100%;
+  height: 100vh;
 }
 
 .CanvasText {
@@ -61,4 +55,4 @@ a:link {
   transform: translate(-50%, -50%);
 }
 
-/* CSS @media Rule */
+/* CSS @media Rules */
