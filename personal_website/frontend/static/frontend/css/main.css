@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.CustomButton {
+  background: #252934;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: 1px;
+  text-align: center;
+  color: #eeeeee;
+  transition: background 0.5s;
+  position: relative;
+}
+
+.CustomButtonText {
+  /* top: 50%;
+  transform: translateY(50%); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.CustomButton:hover {
+  background: #28837e;
+  /* border-style: none; */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#highlight {
+  color: cyan;
+}
+
+.Canvas {
+  width: 100%;
+  height: 100vh;
+  background: #252934;
+  position: relative;
+}
+
+.CanvasText {
+  color: #eeeeee;
+  font-size: 20pt;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ButtonContainer {
+  position: absolute;
+  top: calc(50% + 80px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* CSS @media Rule */
