@@ -3,28 +3,12 @@
   padding: 0px;
   font-family: "Muli", sans-serif;
 }
-.CustomButton {
-  background: #252934;
-  border-style: solid;
-  border-color: #eeeeee;
-  border-width: 1px;
-  text-align: center;
-  color: #eeeeee;
-  transition: background 0.5s;
-  position: relative;
-}
-
-.CustomButton:hover {
-  background: #28837e;
-}
 
 a:link {
   text-decoration: none;
 }
 
-#highlight {
-  color: cyan;
-}
+/* HOME SECTION and HEADER */
 
 .Canvas {
   width: 100%;
@@ -49,6 +33,10 @@ a:link {
   text-align: center;
 }
 
+#highlight {
+  color: cyan;
+}
+
 .ButtonContainer {
   position: absolute;
   top: calc(50% + 80px);
@@ -56,23 +44,68 @@ a:link {
   transform: translate(-50%, -50%);
 }
 
-/* CSS @media Rules */
-.HeaderLink {
-  margin-left: 20px;
-  margin-right: 20px;
+.CustomButton {
+  background: #252934;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: 1px;
+  text-align: center;
+  color: #eeeeee;
+  transition: background 0.5s;
+  position: relative;
 }
 
-.HeaderLinkText {
+.CustomButton:hover {
+  background: #28837e;
+}
+
+.HeaderLink a {
+  margin-left: 20px;
+  margin-right: 20px;
   color: #eeeeee;
 }
 
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .nav-link.active {
-  color: #00ffff;
+.HeaderLink a:hover {
+  text-decoration: underline;
 }
 
-.HeaderLink .active {
-  color: #00ffff;
+.active a {
+  color: cyan;
 }
+
+/* START OF SECTIONS */
+
+.sections {
+  background: #eeeeee;
+  color: #252934;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline overline;
+}
+
+/* ABOUT SECTION */
+
+.AboutImage {
+  border-radius: 50%;
+  height: 200px;
+  flex: 33%;
+  width: 33%;
+  padding: 0 10px;
+}
+
+.AboutImageRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10 px;
+}
+
+.AboutImageCaption {
+  flex: 33%;
+  width: 33%;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+/* CSS @media Rules */

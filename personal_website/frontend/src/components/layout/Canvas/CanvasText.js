@@ -18,7 +18,7 @@ export class CanvasText extends Component {
             width="200px"
             height="50px"
             link="#home"
-            text="View My Work"
+            text="Learn More About Me"
           />
         </div>
       </Fragment>

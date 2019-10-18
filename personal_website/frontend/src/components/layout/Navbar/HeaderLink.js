@@ -1,17 +1,12 @@
 import React, { Component } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
-import Nav from "react-bootstrap/Nav";
+import { Link } from "react-scroll";
 
 export class HeaderLink extends Component {
-  topTop() {
-    scroll.scrollToTop();
-  }
+  static defaultProps = {
+    offset: -50
+  };
 
   render() {
-    if (!this.props.link) {
-      console.log("empty link");
-    }
-
     return (
       <Link
         className="HeaderLink"
@@ -19,10 +14,10 @@ export class HeaderLink extends Component {
         to={this.props.link}
         spy={true}
         smooth={true}
-        offset={-50}
+        offset={this.props.offset}
         duration={500}
       >
-        <Nav.Link className="navbar-link">{this.props.text}</Nav.Link>
+        <a href="">{this.props.text}</a>
       </Link>
     );
   }

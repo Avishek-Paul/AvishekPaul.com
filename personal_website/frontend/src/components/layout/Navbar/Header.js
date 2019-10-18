@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { HeaderLink } from "./HeaderLink";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 export class Header extends Component {
   toTop() {
