@@ -1,0 +1,16 @@
+version: '3'
+volumes:
+  pgdata:
+services:
+  python: &python
+    # image: python:3.5
+    build:
+      context: .
+      dockerfile: docker/dev/python/Dockerfile
+    environment:
+    - PYTHONUNBUFFERED=1
+    volumes:
+      - ./personal_website:/personal_website
+    ports:
+      - 8000:8000
+    command: python manage.py runserver 0.0.0.0:8000
