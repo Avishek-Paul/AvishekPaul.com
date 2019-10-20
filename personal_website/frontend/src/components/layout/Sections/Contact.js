@@ -4,7 +4,7 @@ export class Contact extends Component {
   render() {
     return (
       <div id="contact">
-        <h1>Contact</h1>
+        <h1>Contact [WIP]</h1>
         <p>
           Estas kion la restajxon kvankam da mi malproksime. Nin kvazaux homoj
           ekfaris tial kvin gxi invitis mangxis tiam. Koro ni ekforkuris ni da,

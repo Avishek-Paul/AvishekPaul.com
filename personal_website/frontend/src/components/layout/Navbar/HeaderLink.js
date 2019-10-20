@@ -12,7 +12,7 @@ export class HeaderLink extends Component {
         className="HeaderLink"
         activeClass="active"
         to={this.props.link}
-        spy={true}
+        spy={false}
         smooth={true}
         offset={this.props.offset}
         duration={500}

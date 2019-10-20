@@ -4,7 +4,7 @@ export class Portfolio extends Component {
   render() {
     return (
       <div id="portfolio">
-        <h1>Portfolio</h1>
+        <h1>Portfolio [WIP]</h1>
         <p>
           Segilon li iru alproksimigxos al prizorgi sxipo la kaj kesto lasi. La
           subite plu la unu ne la por, rikoltojn hejme en lancon eljxetis povas
