@@ -4,3 +4,6 @@ node_modules
 *.pyc
 *.sqlite3
 package-lock.json
+prod.py
+personal_website/static
+main.js
