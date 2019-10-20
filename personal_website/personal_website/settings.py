@@ -24,7 +24,7 @@ SECRET_KEY = '@&g6)xjb)!&36&&9=b5!)-!)jbojx5v!@0nun&-6$xyew_9t*3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['AvishekPaul.com', '206.189.186.139', 'localhost']
 
 
 # Application definition
@@ -79,8 +79,12 @@ WSGI_APPLICATION = 'personal_website.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'personal_website',
+        'USER': 'personal_website_super',
+        'PASSWORD': 'homelander',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -122,3 +126,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
