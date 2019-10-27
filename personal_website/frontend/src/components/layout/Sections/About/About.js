@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { AboutImageSlide } from "./AboutImageSlide";
+import { AboutTimeline } from "./AboutTimeline";
 
 export class About extends Component {
   render() {
@@ -9,6 +10,7 @@ export class About extends Component {
         <h1>About</h1>
         <br />
         <AboutImageSlide />
+        <AboutTimeline />
       </div>
     );
   }

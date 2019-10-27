@@ -1,14 +1,14 @@
 {
   "name": "AvishekPaul.com",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Personal Website",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch ./personal_website/frontend/src/index.js --output ./personal_website/frontend/static/frontend/js/main.js",
     "build": "webpack --mode production ./personal_website/frontend/src/index.js --output ./personal_website/frontend/static/frontend/js/main.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Avishek Paul",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -16,12 +16,15 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "image-webpack-loader": "^6.0.0",
     "webpack": "^4.41.0",
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "css-loader": "^3.2.0",
+    "install": "^0.13.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.14",
@@ -29,6 +32,7 @@
     "react-particles-js": "^2.7.0",
     "react-pose": "^4.0.9",
     "react-scroll": "^1.7.14",
-    "react-spring": "^8.0.27"
+    "react-vertical-timeline-component": "^2.5.0",
+    "react-visibility-sensor": "^5.1.1"
   }
 }

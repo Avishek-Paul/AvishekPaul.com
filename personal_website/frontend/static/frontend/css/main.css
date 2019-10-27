@@ -57,7 +57,13 @@ a:link {
 
 .CustomButton:hover {
   background: #28837e;
+  scale: 1.2;
 }
+
+/* .CustomButton:click {
+  background: #28837e;
+  scale: 1.1;
+} */
 
 .HeaderLink a {
   margin-left: 20px;
@@ -108,4 +114,9 @@ h1 {
   text-align: center;
 }
 
+.TimelineIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
 /* CSS @media Rules */

@@ -6,7 +6,7 @@ import { animateScroll as scroll } from "react-scroll";
 import Header from "./layout/Navbar/Header";
 import Canvas from "./layout/Canvas/Canvas";
 
-import About from "./layout/Sections/About";
+import About from "./layout/Sections/About/About";
 import Portfolio from "./layout/Sections/Portfolio";
 import Contact from "./layout/Sections/Contact";
 

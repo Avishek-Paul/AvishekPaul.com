@@ -7,12 +7,12 @@ export class AboutImageSlide extends Component {
         <img
           className="AboutImage"
           alt="Xandr Logo"
-          src="static/images/about/xandr_logo.jpg"
+          src="static/images/about/xandr_about.jpg"
         />
         <img
           className="AboutImage"
           alt="Binghamton University Logo"
-          src="static/images/about/binghamton_logo.jpg"
+          src="static/images/about/binghamton_about.jpg"
         />
         <img
           className="AboutImage"
